@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>carrinho</title>
+</head>
+
+  <body>
+
+<header>
+    <h1>🖼️ Carrinho (4)</h1>
+</header>
+
+<main>
+
+    <div class="produtos" id="produtos">
+        <div class="card" data-nome="Abaporu" data-autor="Tarsila do Amaral">
+            <img src="https://cdn.pensador.com/img/imagens/pe/ns/pensador_abaporu_tarsila_0_c.jpg?auto_optimize=low&width=655">
+            <h3>Abaporu</h3>
+              <h5> Tarsila do Amaral</h5>
+            <p>R$ 100.0000,00</p>
+            <button onclick="adicionar('Abaporu', 1000000.00)">Adicionar</button>
+        </div>
+
+        <div class="card" data-nome="Mona Lisa">
+            <img src="https://s.ebiografia.com/img/mo/na/mona_lisa_c.jpg?auto_optimize=low&width=655">
+            <h3>Mona Lisa</h3>
+            <h5> Leonardo Da Vinci</h5>
+            <p>R$ 15.0000,90</p>
+            <button onclick="adicionar('mona lisa', 150000.90)">Adicionar</button>
+        </div>
+
+        <div class="card" data-nome="A Persistência da Memória">
+            <img src="https://arteref.com/wp-content/uploads/2019/04/The-Persistence-of-Memory-salvador-deli-painting.jpg">
+            <h3>A Persistência da Memória</h3>
+            <h5>Salvador Dalí</h5>
+            <p>R$ 1.500,90</p>
+            <button onclick="adicionar('A Persistência da Memória', 1500.90)">Adicionar</button>
+        </div>
+
+        <div class="card" data-nome="O Grito">
+            <img src="https://static.todamateria.com.br/upload/og/ri/ogritodeedvardmunch-cke.jpg">
+            <h3>O Grito</h3>
+            <h5> Edvard Munch</h5>
+            <p>R$ 600.0000,90</p>
+            <button onclick="adicionar('o Grito', 6000000.90)">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>🛒 Carrinho</h2>
+        <div id="lista"></div>
+        <div class="total">Total: R$ <span id="total">0.00</span></div>
+        <button class="finalizar" onclick="finalizar()">Finalizar Compra</button>
+    </div>
+
+</main>
+
+    </body>
+</html>
