@@ -142,15 +142,16 @@ h2 {
 }
 
 .btn-submit {
+    display: block;
     width: 100%;
-    padding: 16px;
-    background-color: #3e5879;
-    color: white;
-    border: none;
-    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    background-color: #6a4cff;
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .btn-submit:hover {
