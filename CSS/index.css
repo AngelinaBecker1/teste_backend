@@ -1,1 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #75a5ff;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #464040;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-left: 6px solid #000;
+    padding-left: 12px;
+}
+
+.galeria {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.categorias {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.categorias button {
+    background-color: #000;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.categorias button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #75a5ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
